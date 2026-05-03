@@ -15,123 +15,109 @@ body{
   text-align:center;
 }
 
-/* subtle glow */
-.bg{
-  position:fixed; inset:0;
-  background: radial-gradient(400px 200px at 50% 0%, rgba(0,255,136,.12), transparent 60%);
-  pointer-events:none;
-}
-
 .container{
   padding:60px 20px;
   max-width:520px;
   margin:auto;
 }
 
-/* profile */
 .profile{
   width:120px;height:120px;border-radius:50%;
   object-fit:cover;
   border:3px solid #00ff88;
-  box-shadow:0 0 28px rgba(0,255,136,.6);
-  margin-bottom:22px;
+  box-shadow:0 0 25px #00ff88;
+  margin-bottom:20px;
 }
 
-/* text */
 h1{
   font-size:30px;
-  line-height:1.25;
   margin-bottom:14px;
-  letter-spacing:.3px;
+  line-height:1.3;
 }
 
 .sub{
-  color:#cfcfcf;
+  color:#ccc;
   font-size:16px;
+  margin-bottom:18px;
   line-height:1.5;
-  margin-bottom:16px;
 }
 
 .warn{
-  color:#ff4d4d;
-  font-weight:700;
-  margin:8px 0 22px;
+  color:#ff3b3b;
+  font-weight:bold;
+  margin-bottom:20px;
 }
 
-/* button */
-.btn{
-  display:inline-block;
-  background:#00ff88;
-  color:#000;
-  padding:18px 36px;
-  border-radius:999px;
-  font-weight:800;
-  text-decoration:none;
-  box-shadow:0 0 28px rgba(0,255,136,.7);
-  transition:.2s;
-  animation:pulse 1.2s infinite;
-}
-.btn:hover{ transform:scale(1.05); }
-
-@keyframes pulse{
-  0%{transform:scale(1);}
-  50%{transform:scale(1.06);}
-  100%{transform:scale(1);}
-}
-
-/* trust + extra */
-.proof{
-  margin-top:18px;
-  font-size:14px;
-  color:#9a9a9a;
-}
-.extra{
-  margin-top:20px;
-  font-size:14px;
-  color:#b5b5b5;
-  line-height:1.5;
-}
-
-/* tiny hint arrow */
-.hint{
+.cta{
   color:#00ff88;
   font-size:13px;
   margin-bottom:10px;
-  opacity:.9;
+}
+
+.button{
+  display:inline-block;
+  background:#00ff88;
+  color:black;
+  padding:18px 35px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 0 30px #00ff88;
+  animation:pulse 1.2s infinite;
+}
+
+@keyframes pulse{
+  0%{transform:scale(1);}
+  50%{transform:scale(1.05);}
+  100%{transform:scale(1);}
+}
+
+.proof{
+  margin-top:20px;
+  font-size:14px;
+  color:#aaa;
+}
+
+.extra{
+  margin-top:20px;
+  font-size:14px;
+  color:#bbb;
+  line-height:1.5;
 }
 </style>
 </head>
 
 <body>
-<div class="bg"></div>
 
 <div class="container">
 
-<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" class="profile" alt="profile">
+<img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" class="profile">
 
-<h1>You’re not the only one.</h1>
+<h1>He’s not confused.</h1>
 
 <p class="sub">
-He gives you just enough attention  
-so you don’t leave…  
-but never enough to feel secure.
+He knows exactly what he’s doing.  
+He just doesn’t want you enough.
 </p>
 
-<p class="warn">⚠️ This is your wake-up call</p>
+<p class="warn">⚠️ This is the part you keep ignoring</p>
 
-<p class="hint">👇 Don’t ignore this</p>
+<p class="cta">👇 Don’t ignore this</p>
 
-<a href="https://endeel1.eu.org/hwxLEVOVjIZBuXdH" class="btn">
-👉 Watch what you’ve been ignoring
+<a href="https://endeel1.eu.org/hwxLEVOVjIZBuXdH" class="button">
+👉 Watch before you waste more time
 </a>
 
-<p class="proof">17,000+ people realized this today</p>
+<p class="proof">
+23,000+ people realized this today
+</p>
 
 <p class="extra">
-If he really wanted you, you wouldn’t feel confused.  
-Stop explaining away the red flags.
+If he really wanted you…  
+you wouldn’t feel confused.
 </p>
 
 </div>
+
 </body>
 </html>
